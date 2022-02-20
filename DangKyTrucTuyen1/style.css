@@ -1,0 +1,101 @@
+.body-form {
+    background-image: url('https://phothongcaodang.fpt.edu.vn/wp-content/uploads/papers.co-si86-soft-gray-gradation-blur-36-3840x2400-4k-wallpaper-scaled.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.body-form .background .container>.title {
+    font-size: 72px;
+    color: #192041;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 0 13px 0;
+}
+
+.body-form .background .container p {
+    width: 70%;
+    font-size: 13.33px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin-bottom: 21px;
+}
+
+.body-form .background .container .form {
+    background-image: url('../Img/F5CMBib.png');
+    background-size: 100% 100%;
+    padding: 30px 50px;
+    
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.body-form .background .container .form form>div {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.body-form .background .container .form form>div label {
+    
+}
+
+.body-form .background .container .form form>div label>span, .row4 span {
+    color: #790000;;
+}
+
+.body-form .background .container .form form>div input, .row3 select{
+    width: 97%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 7px;
+    margin: 20px auto;
+    height: 40px;
+    border: none;
+}
+
+.body-form .background .container .form form>div input:focus, .row3 select:focus {
+    outline: none;
+}
+
+.row4>.title {
+    font-size: 14px;
+}
+.row5 {
+    width: 100px;
+    font-size: 12.25px!important;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 5px;
+    
+}
+.row5 .checkbox {
+    width: 13px!important;
+    margin-left: 0!important;
+    
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background: #1b1464;
+    font-size: 16px;
+    border: none;
+    margin: 0 auto;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
+    transition: .25s;
+}
+

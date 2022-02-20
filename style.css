@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.header {
+
+}
+
+.body {
+    margin-bottom: 64px;
+}
+
+.header .background {
+    background-color: #192041;
+}
+
+.background1 {
+    position: sticky;
+    top: 0px;
+    background-color: #272f54;
+    height: 96px;
+    z-index: 1;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.header .container .information {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    
+}
+
+.container .information>div {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* THANH MENU */
+.container .nav {
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .nav .left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.container .nav .left img {
+    height: 100%;
+    width: 86%;
+    object-fit: cover;
+}
+
+.container .nav .right {
+    width: 80%;
+    padding-top: 25px;
+    
+}
+
+.container .nav .right .menu {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .nav .right .menu li{
+    display: inline-block;
+    position: relative;
+    /* padding: 0 10px */
+    padding-right: 10px;
+}
+
+.container .nav .right .menu li:first-child{
+    
+    padding-left: 10px;
+}
+
+.container .nav .right .menu li::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 6px;
+}
+
+.container .nav .right .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    left: 0;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+    min-width: 250px;
+}
+
+.container .nav .right .menu li:hover .submenu {
+    display: block;
+}
+
+.container .nav .right .menu .submenu div:hover {
+    background-color: #ebebeb;
+    transition: .15s;
+}
+
+.container .nav .right .menu .submenu li a:hover {
+    color: #f7941d;
+}
+
+.nav .right .menu li .submenu li {
+    width: 100%;
+}
+
+.nav .right .menu li .submenu li>a {
+    display: block;
+    color: #000;
+    line-height: 42px;
+    width: 100%;
+}
+
+/* BODY */
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 48px 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table tr, table td {
+    border: 1px solid #ddd;
+}
+
+table tr {
+    width: 100%;
+}
+
+table tr td {
+    width: 45%;
+}
+
+tbody tr td:first-child {
+    text-align: center;
+    height: 94px;
+}
+
+tbody tr td:nth-child(2) {
+    text-align: justify;
+    position: relative;
+}
+
+tbody tr td:nth-child(2) div {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+}
+
+tbody tr td:nth-child(2), tbody tr:nth-child(2n+1) td:nth-child(1) {
+    background-color: #f9f9f9;
+}
+
+
+
+tbody tr:nth-child(2n) td:nth-child(1) {
+    height: 273px;
+    position: relative;
+    top: 0;
+}
+
+tbody td div {
+    padding: 12px;
+}
+
+tbody tr:nth-child(2n) td:nth-child(1) div {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.w70 {
+    width: 55%;
+}
+
